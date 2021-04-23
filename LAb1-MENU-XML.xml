@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus xmlns:special ="http://www.lab1.com/ns/specialmenuitem" >
+    <menu catagory="Famous Buckets">
+        <description>
+            Our most popular buckets
+        </description>
+        <menuItem name="Variety Bucket" weight ="1700g">
+            <price>$15.95</price>
+            <description>8 pieces of chicken, 4 chicken tenders, medium popcorn chicken, large fries and 3 dips.</description>
+        </menuItem>
+        <special: menuItem name="Sandwich Bucket" weight ="1500g">
+            <special: special: price>$19.95</special: price>
+            <special: special: description>2 Double Tender sandwiches and 2 Big Crunch or Zinger sandwiches with large fries.</special: description>
+        </special: menuItem>
+    </menu>
+    <menu catagory="Sides & Drinks">
+        <description>Choose one of  these with your meal</description>  
+        <menuItem name="Seasoned Corn" weight ="95g">
+            <price>$3.95</price>
+            <description>Corn seasoned with 11 herbs and spices.</description>
+        </menuItem>
+        <menuItem name="Brisk Iced Tea" weight = "591ml">
+            <price>$2.99</price>
+            <description>No. 1 choice</description>
+        </menuItem>
+    </menu>
+    <menu catagory="Desserts">
+        <description>Freshly baked desserts</description>      
+        <menuItem name="Chocolate Chip Cookie"  weight = "31g">
+            <price>$1.75</price>
+            <description>Classic chewy chocolate cookie </description>
+        </menuItem>
+    </menu>
+</menus>
